@@ -1,3 +1,9 @@
+# revision 20431
+# category Package
+# catalog-ctan /macros/latex/contrib/assignment
+# catalog-date 2006-10-12 15:12:24 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-assignment
 Version:	20061012
 Release:	1
@@ -40,6 +46,7 @@ A class file for typesetting homework and lab assignments.
 %doc %{_texmfdistdir}/doc/latex/assignment/README
 %doc %{_texmfdistdir}/doc/latex/assignment/assignment.pdf
 %doc %{_texmfdistdir}/doc/latex/assignment/assignment.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -50,3 +57,5 @@ A class file for typesetting homework and lab assignments.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
