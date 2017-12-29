@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-assignment
-Version:	20061012
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	A class file for typesetting homework and lab assignments
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/assignment
