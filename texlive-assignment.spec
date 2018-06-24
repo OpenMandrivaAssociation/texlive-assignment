@@ -5,7 +5,7 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-assignment
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	A class file for typesetting homework and lab assignments
 Group:		Publishing
