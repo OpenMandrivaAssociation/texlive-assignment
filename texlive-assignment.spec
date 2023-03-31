@@ -1,6 +1,6 @@
 Name:		texlive-assignment
 Version:	20431
-Release:	1
+Release:	2
 Summary:	A class file for typesetting homework and lab assignments
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/assignment
